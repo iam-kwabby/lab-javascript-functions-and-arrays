@@ -102,14 +102,26 @@ const wordsUnique = [
   'bring'
 ];
 
-function uniquifyArray() {}
+function uniquifyArray(arr) {
+  let uniques = []
+  for (let i = 0; i < arr.length; i++) {
+    if (!uniques.includes(arr[i])) {
+      uniques.push(arr[i])
+    }
+  }
+  return uniques
+
+}
 
 
 
 // Iteration #6: Find elements
 const wordsFind = ['machine', 'subset', 'trouble', 'starting', 'matter', 'eating', 'truth', 'disobedience'];
 
-function doesWordExist() {}
+function doesWordExist(arr, word) {
+
+
+}
 
 
 
